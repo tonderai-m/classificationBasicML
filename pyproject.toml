@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ryan-product-mapper"
+version = "0.1.0"
+description = "Predict the vertex label for a grocery item given its receipt data"
+license = "MIT"
+authors = ["Austin Simeone <austin.simeone@dialexa.com>",
+            "Stephen Hage <stephen.hage@dialexa.com>",
+            "Tonderai Madamba <tonderai.madamba@dialexa.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.0"
+gradio = "^3.4"
+python-dotenv = "^0.21.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
