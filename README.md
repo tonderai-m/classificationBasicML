@@ -1,5 +1,3 @@
-# ryan-product-mapper
-
 ## Requirements
 1. To set up the project ensure that you have [poetry installed](https://python-poetry.org/docs/)
 1. Clone this repo and navigate to its directory in terminal
